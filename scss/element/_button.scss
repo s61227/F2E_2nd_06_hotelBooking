@@ -1,0 +1,14 @@
+/* ======= element ======= */
+// button
+@mixin button ($sizeW, $sizeH, $textColor, $bgColor) {
+    width: $sizeW;
+    height: $sizeH;
+    color: $textColor;
+    background-color: $bgColor;
+    outline: none;
+    border: 0;
+    cursor: pointer; 
+    font-size: $font-size-base;
+    font-family: $font-style;
+}
+

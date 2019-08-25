@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hotel Booking</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC:400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="h-d-flex h-justify-content-between">
+            <a href="#" class="l-logo h-d-inline-block">TRAVEL</a>
+            <a href="#" class="l-searchRoom h-d-inline-block">找房源</a>
+        </nav>
+        <div class="row no-gutters l-banner">
+            <div class="col-9">
+                <img class="l-banner__bigImg" src="images/singleRoom-1.jpg" alt="" style="width: 100%;">
+            </div>
+            <div class="col-3">
+                <img class="l-banner__smallImg" src="images/singleRoom-2.jpg">
+                <img class="l-banner__smallImg" src="images/singleRoom-3.jpg">
+                <img class="l-banner__smallImg" src="images/singleRoom-1.jpg">
+            </div>
+        </div>
+        <main class="container p-room">
+            <ul class="h-d-flex h-justify-content-between">
+                <li>
+                    <h3>房間人數：</h3>
+                    <p>1~1人</p>
+                </li>
+                <li>
+                    <h3>床型：</h3>
+                    <p>單人床</p>
+                </li>
+                <li>
+                    <h3>房間大小：</h3>
+                    <p>18 平方公尺</p>
+                </li>
+                <li>
+                    <h3>衛浴數量：</h3>
+                    <p>1間</p>
+                </li>
+                <li>
+                    <h3>CheckIn 時間</h3>
+                    <p>15:00 ~ 21:00</p>
+                </li>
+                <li>
+                    <h3>CheckOut 時間</h3>
+                    <p>10:00</p>
+                </li>
+            </ul>
+            <div class="row">
+                <div class="col-7">
+                    <section class="p-room__intro">
+                        <h2>Single Room</h2>
+                        <p>Single Room is only reserved for one guest. There is a bedroom with a single size bed and a private bathroom. Everything you need prepared for you: sheets and blankets, towels, soap and shampoo, hairdryer are provided. In the room there is AC and of course WiFi.</p>
+                    </section>
+                    <section class="p-room__detail">
+                        <h3>設備與服務</h3>
+                        <div class="h-d-flex h-flex-wrap">
+                            <p>
+                                <span><i class="material-icons">wifi</i></span>
+                                <span>wifi：有</span>
+                            </p>
+                            <p>
+                                <span><i class="material-icons">local_cafe</i></span>
+                                <span>早餐：有</span>
+                            </p>
+                            <p class="none">
+                                <span><i class="material-icons">local_bar</i></span>
+                                <span>Mini Bar：無</span>
+                            </p>
+                            <p class="none">
+                                <span><i class="material-icons">room_service</i></span>
+                                <span>Room Service：無</span>
+                            </p>
+                            <p>
+                                <span><i class="material-icons">phone_enabled</i></span>
+                                <span>電話：有</span>
+                            </p>
+                            <p>
+                                <span><i class="material-icons">ac_unit</i></span>
+                                <span>空調：有</span>
+                            </p>
+                            <p>
+                                <span><i class="material-icons">kitchen</i></span>
+                                <span>冰箱：有</span>
+                            </p>
+                            <p class="none">
+                                <span><i class="material-icons">event_seat</i></span>
+                                <span>沙發：無</span>
+                            </p>
+                            <p class="none">
+                                <span><i class="material-icons">terrain</i></span>
+                                <span>漂亮的視野：無</span>
+                            </p>
+                            <p>
+                                <span><i class="material-icons">smoke_free</i></span>
+                                <span>禁止吸煙：有</span>
+                            </p>
+                            <p class="none">
+                                <span><i class="material-icons">child_care</i></span>
+                                <span>適合兒童：無</span>
+                            </p>
+                            <p>
+                                <span><i class="material-icons">pets</i></span>
+                                <span>寵物攜帶：有</span>
+                            </p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-5">
+                    <form class="l-form">
+                        <div class="l-form__top h-d-flex">
+                            <aside>
+                                <small>平日(一~四)</small>
+                                <span>$NT 1,380 / 晚</span>
+                            </aside>
+                            <aside>
+                                <small>假日(五~日)</small>
+                                <span>$NT 1,500 / 晚</span>
+                            </aside>
+                        </div>
+                        <div class="l-form__content">
+                            <p>
+                                <label for="">姓名</label>
+                                <input type="text">
+                            </p>
+                            <p>
+                                <label for="">電話</label>
+                                <input type="text">
+                            </p>
+                            <p>
+                                <label for="">日期</label>
+                                <div class="h-d-flex h-justify-content-between h-align-items-center">
+                                    <input type="text">
+                                    <!-- <i class="material-icons">arrow_right_alt</i>
+                                    <input type="text"> -->
+                                </div>
+                                
+                            </p>
+                            <p>
+                                <label for="">房客</label>
+                                <input type="text">
+                            </p>
+                            <!-- <section class="l-form__receipt">
+                                <p class="h-d-flex h-justify-content-between">
+                                    <span>平日 $NT 1,380 x 1晚</span>
+                                    <span>$NT 1,380</span>
+                                </p>
+                                <p class="h-d-flex h-justify-content-between">
+                                    <span>假日 $NT 1,500 x 3晚</span>
+                                    <span>$NT 4,500</span>
+                                </p>
+                                <p class="h-d-flex h-justify-content-between"> 
+                                    <span>服務費</span>
+                                    <span>$NT 588(10%)</span>
+                                </p>
+                                <p class="h-d-flex h-justify-content-between">
+                                    <span>總計</span>
+                                    <span class="l-total">$NT 6,468</span>
+                                </p>
+                            </section> -->
+                            <button>預訂房間<i class="material-icons">arrow_right_alt</i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- <div class="l-overlay h-d-flex h-justify-content-center h-align-items-center">
+        <div class="l-message">
+            <div class="l-message__close">
+                <i class="material-icons">close</i>
+            </div>
+            <div class="l-message__content">
+                <h1>預訂成功</h1>
+                <p>您的預訂時間已經完成</p>
+                <i class="material-icons">check_circle</i>
+            </div>
+        </div>
+    </div> -->
+</body>
+</html>
